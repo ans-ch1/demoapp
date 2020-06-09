@@ -3,12 +3,12 @@ import './App.css';
 import Dinner from './dinner.js';
 function App() {
   return (
-    <div color='grey' className='App'>
-    <Dinner dishName="Chicken karahi" sweetDish="Kheer" />
+    <div className='App' >
+    <Dinner Name="Ans Choudhary" new="computer" subject='computer' />
     <hr/>
-    <Dinner dishName="nihari" sweetDish="rasmilai" />
+    <Dinner Name="Ans Choudhary" new="information technology" subject='netwoking' />
     <hr/>
-    <Dinner dishName="Chicken biryani" sweetDish="gulabjamun" />
+    <Dinner Name="Ans Choudhary" new="earning" subject='business' />
     <hr/>
     </div>
   );
